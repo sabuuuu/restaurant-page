@@ -1,0 +1,68 @@
+.header-contact {
+    background-image: url('../assets/contactbg.jpg');
+    height: 100vh;
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+    color: #1C0A00;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.contact-text {
+    font-weight: bolder;
+}
+.contact-text h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+    margin-top: 50px;
+}
+.contact-form button {
+    height: 50px;
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    height: 45px;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #361500;
+    background-color: #1C0A00;
+    color: #CC9544;
+}
+
+textarea{
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #361500;
+    background-color: #1C0A00;
+    color: #CC9544;
+}
+input::placeholder , textarea::placeholder{
+    color: #CC9544;
+}
+
+input:focus{
+    border: 0;
+}
